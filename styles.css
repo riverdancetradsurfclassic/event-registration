@@ -1,0 +1,98 @@
+body {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin: 50px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.title-art {
+    width: 50vw;
+    /* Full width of the viewport */
+    margin: 0 auto;
+    /* Centers the section */
+    text-align: center;
+    /* Centers the image if it's smaller */
+}
+
+.title-art img {
+    width: 100%;
+    /* Ensures the image stretches across the screen */
+    height: auto;
+    /* Maintains aspect ratio */
+    display: block;
+    /* Removes any extra spacing */
+}
+
+#registration-form {
+    display: none;
+}
+
+.header_text {
+    font-size: 3rem;
+}
+
+.countdown_header {
+    font-family: 'Courier New', monospace;
+    padding-top: 5%;
+    font-size: 1.2rem;
+}
+
+.countdown-container {
+    margin-bottom: 5%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+}
+
+.countdown-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.digit-box {
+    display: flex;
+    gap: 5px;
+}
+
+.digit {
+    width: 40px;
+    height: 60px;
+    background-color: black;
+    color: rgb(4, 161, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 5px;
+}
+
+.label {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.art-banner {
+    width: 80vw;
+    /* Full width of the viewport */
+    margin: 0 auto;
+    /* Centers the section */
+    text-align: center;
+    /* Centers the image if it's smaller */
+}
+
+.art-banner img {
+    width: 100%;
+    /* Ensures the image stretches across the screen */
+    height: auto;
+    /* Maintains aspect ratio */
+    display: block;
+    /* Removes any extra spacing */
+}
