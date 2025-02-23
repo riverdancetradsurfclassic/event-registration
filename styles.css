@@ -107,14 +107,16 @@ body {
         /* Centers the section */
         text-align: center;
         /* Centers the image if it's smaller */
+        margin-bottom: 0px;
+        /* Reduce the space below the title */
     }
 
     /* For screens smaller than 768px (mobile & tablets) */
     .container {
-        padding-top: 50px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0;
+        padding-bottom: 0px;
     }
 
     .countdown_header {
