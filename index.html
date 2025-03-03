@@ -18,15 +18,15 @@
 
     <div class="container text-center">
         <div>
-            <h2 class="countdown_header">Time until registration opens</h2>
+            <h2 class="countdown_header">Thank you for your interest.</h2>
             <div id="countdown" class="countdown-container"></div>
         </div>
 
-        <div class="mt-2">
+        <!-- <div class="mt-2">
             <iframe id="registration-form" class="w-100"
                 src="https://docs.google.com/forms/d/e/1FAIpQLSd6fBOmcBM1CZDT-tSmtxYsfjsDHmW8xdDJpSGuaUlt8-wPRA/viewform?embedded=true"
                 width="640" height="1800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
+        </div> -->
     </div>
 
     <section class="art-banner">
@@ -44,7 +44,6 @@
                 src="https://docs.google.com/forms/d/e/1FAIpQLSf7VeiKAs5KP9Gm8MCpsWNXuA-ekguB_f3hsgr9CHedDJt12w/viewform?embedded=true"
                 width="640" height="1900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
-        <h3>Revolut payment tag: <SPAN STYLE="font-weight:bold">@matthidj6u</SPAN><br> - Thankyou for the support!</h3>
     </div>
 
     <section class="art-banner">
@@ -61,8 +60,8 @@
             const timeLeft = registrationTime - now;
 
             if (timeLeft <= 0) {
-                // Set countdown container to display "REGISTRATION OPEN"
-                document.getElementById("countdown").innerHTML = "<h2>REGISTRATION OPEN</h2>";
+                // Set countdown container to display "REGISTRATION IS NOW CLOSED"
+                document.getElementById("countdown").innerHTML = "<h1>REGISTRATION IS NOW CLOSED</h1>";
                 document.getElementById("registration-form").style.display = "block";
 
                 // Hide the countdown header only (not the countdown itself)
